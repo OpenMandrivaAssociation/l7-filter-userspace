@@ -30,7 +30,7 @@ userspace instead of the kernel.
 
 %install
 mkdir -p -m 755 %{buildroot}%{_sysconfdir}/l7-protocols/
-make install DESTDIR=%{buildroot} INSTALL="install -p"
+%makeinstall_std
 
 %files
 %doc AUTHORS COPYING ChangeLog INSTALL README TODO NEWS THANKS sample-l7-filter.conf
