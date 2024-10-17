@@ -4,7 +4,7 @@ Release:	1
 Summary:	Userspace version of l7-filter
 Group:		System/Base
 License:	GPLv2+
-URL:		http://l7-filter.sourceforge.net
+URL:		https://l7-filter.sourceforge.net
 Source0:	http://download.clearfoundation.com/l7-filter/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libnetfilter_conntrack)
 BuildRequires:	pkgconfig(libnetfilter_queue)
