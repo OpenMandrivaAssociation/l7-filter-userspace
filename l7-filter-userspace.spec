@@ -6,6 +6,11 @@ Group:		System/Base
 License:	GPLv2+
 URL:		https://l7-filter.sourceforge.net
 Source0:	http://download.clearfoundation.com/l7-filter/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libnetfilter_conntrack)
 BuildRequires:	pkgconfig(libnetfilter_queue)
 Patch0:		l7-filter-userspace-0.11-libnetfilter_conntrack-0.0.100.patch
